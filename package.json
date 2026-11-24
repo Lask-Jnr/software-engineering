@@ -1,0 +1,12 @@
+{
+  "name": "student-results-portal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Student results portal with a Node.js + SQLite backend. No npm dependencies.",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "reset": "node --disable-warning=ExperimentalWarning server.js --reset",
+    "empty": "node --disable-warning=ExperimentalWarning server.js --reset --no-sample"
+  },
+  "engines": { "node": ">=22.13" }
+}
